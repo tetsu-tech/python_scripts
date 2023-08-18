@@ -1,3 +1,6 @@
+setup:
+	touch output/all_data.jsonl
+
 convert:
 	python3 scripts/convert_json_to_jsonl.py
 
